@@ -1,0 +1,836 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Navbar Component */
+
+body {
+  background-color: white;
+}
+
+.themeColor {
+  color: #069a89;
+}
+
+.nav-link-hover:hover {
+  color: #05295f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo-link {
+  margin: -13px -33px;
+}
+
+.logo-set {
+  width: 182px;
+
+}
+
+.ul-hover:hover {
+  background-color: #9be3e3;
+  color: white !important;
+}
+
+
+.curved{
+  background: linear-gradient(45deg, #a7c5a7, #189869);
+  border-radius: 0 0 20px 20px;
+  /* transform: scale(1.5); */
+}
+
+/* Loading spinner content  */
+
+#loading-bar-spinner.spinner {
+  left: 50%;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 19 !important;
+  animation: loading-bar-spinner 400ms linear infinite;
+}
+
+#loading-bar-spinner.spinner .spinner-icon {
+  width: 140px;
+  height: 140px;
+  border: solid 4px transparent;
+  border-top-color: #00C8B1 !important;
+  border-left-color: #00C8B1 !important;
+  border-radius: 50%;
+}
+
+@keyframes loading-bar-spinner {
+  0% {
+    transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.spinnerClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 14pc 20pc;
+  font-size: 2rem;
+}
+
+/* Card Components All CSS Starts from here   */
+
+.card-hover:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.bg-img {
+  background-image: url(./images/ad-card-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+
+.card-bgcol-set-1 {
+  background-color: rgb(255, 57, 90);
+  border-radius: 4px;
+  color: white;
+}
+
+.card-size {
+  height: 130px;
+  width: 300px;
+  cursor: pointer;
+  border: 3px solid black;
+  margin-left: 10px;
+
+}
+
+.card-props{
+  width: 24rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* Carousel css starts here */
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.carousel-item {
+  height: 90vh;
+  min-height: 90px;
+}
+
+.carousel-caption {
+  /* bottom: 220px; */
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  /* margin-top: 25px; */
+  letter-spacing: 2px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 23px;
+  /* line-height: 1.9; */
+}
+
+.carousel-inner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(53, 52, 52, 0.7);
+  z-index: 1;
+}
+
+/* All Regular CSS Elements and components start from here */
+
+.h-set {
+  height: 100vh;
+}
+
+.font-set {
+  font-size: 3rem;
+}
+
+.in-hr {
+  width: 60px;
+  background-color: #7c4dff;
+  height: 2px;
+}
+
+.bg-set-2 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bg-set-3 {
+  background-color: #000000;
+}
+
+.bg-set-4 {
+  background-color: #e3f2fd;
+}
+
+#header-2 {
+  display: none;
+}
+
+.elem-Color {
+  color: rgb(8, 116, 161);
+  text-align: center;
+}
+
+#container-1 {
+  margin-top: 60px;
+}
+
+#loader-1 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  color: rgb(4, 54, 62);
+}
+
+
+
+.sale-image {
+  height: 38px;
+  width: 54px;
+}
+
+/* Payment gateway style */
+
+
+p {
+  margin: 0
+}
+
+
+.box-right {
+  padding: 30px 25px;
+  background-color: white;
+  border-radius: 15px
+}
+
+.box-left {
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 15px
+}
+
+.textmuted {
+  color: #7a7a7a
+}
+
+.bg-green {
+  background-color: #d4f8f2;
+  color: #06e67a;
+  padding: 3px 0;
+  display: inline;
+  border-radius: 25px;
+  font-size: 11px
+}
+
+.p-blue {
+  font-size: 14px;
+  color: #1976d2
+}
+
+.fas.fa-circle {
+  font-size: 12px
+}
+
+.bg-blue {
+  background-color: #dfe9fc9c;
+  border-radius: 5px
+}
+
+.form-control {
+  box-shadow: none !important
+}
+
+.card input::placeholder {
+  font-size: 14px
+}
+
+.card-width {
+  width: 23rem;
+}
+
+.card-shadow-border {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+::placeholder {
+  font-size: 14px
+}
+
+input.card {
+  position: relative
+}
+
+.far.fa-credit-card {
+  position: absolute;
+  top: 10px;
+  padding: 0 15px
+}
+
+.fas,
+.far {
+  cursor: pointer
+}
+
+.cursor {
+  cursor: pointer
+}
+
+
+.bg.btn.btn-primary {
+  background-color: transparent;
+  border: none;
+  color: #1976d2
+}
+
+.bg.btn.btn-primary:hover {
+  color: #539ee9
+}
+
+/* Animation of services are here */
+
+.animation-1 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 1.3s;
+  /* z-index: -1; */
+  animation-delay: 0s;
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+    top: -200px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.animation-2 {
+  position: relative;
+  animation-name: header;
+  animation-duration: 2s;
+  z-index: -1;
+  animation-delay: 0s;
+}
+
+@keyframes header {
+  0% {
+    left: 200px;
+    bottom: 200px;
+  }
+
+  100% {
+    left: 0px;
+    bottom: 0px;
+  }
+}
+
+.animation-2i {
+  position: relative;
+  animation-name: header-3;
+  animation-duration: 2s;
+  z-index: -1;
+  animation-delay: 0s;
+}
+
+@keyframes header-3 {
+  0% {
+    right: 200px;
+    bottom: 200px;
+  }
+
+  100% {
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+.animation-3 {
+  position: relative;
+  animation-name: header-2;
+  animation-duration: 2s;
+  z-index: -1;
+  animation-delay: 0s;
+}
+
+@keyframes header-2 {
+  0% {
+    right: 200px;
+    bottom: 200px;
+  }
+
+  100% {
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-34:hover {
+  background: #3e3ea7;
+  transition: .2 ease-in;
+}
+
+/* CSS */
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+/* Button-36 */
+
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+/* button-66 */
+
+.button-66 {
+  background-color: #0a6bff;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1, 60, 136, .5) 0 -1px 3px 0 inset, rgba(0, 44, 97, .1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.button-66:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
+}
+
+/* Search Bar Css */
+
+.height {
+  height: 20vh;
+}
+
+
+.Search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.Search input {
+
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+
+
+}
+
+
+.Search input:focus {
+
+  box-shadow: none;
+  border: 2px solid blue;
+
+
+}
+
+.Search .fa-search {
+
+  position: absolute;
+  top: 20px;
+  left: 16px;
+
+}
+
+.Search button {
+
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+
+}
+
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .button-69 {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+.imgback {
+  background: url('images/c-item1.jpg');
+}
+
+.box-shadow-set {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.modebtnset {
+  float: right;
+}
+
+.header-img-set{
+  /* width: 190px!important; */
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-shadow-set{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* About Card Container starts here */
+
+.bg-image-1 {
+  background: url('images/designer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+
+
+/* Main Container Of Home Css Style is here */
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+@media(max-width:320px) {
+  .h8 {
+    font-size: 11px
+  }
+
+  .h7 {
+    font-size: 13px
+  }
+
+  ::placeholder {
+    font-size: 10px
+  }
+}
+
+
+
+/* Main container button css starts here */
+
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn22 {
+  background-image: linear-gradient(to right,
+      #0ba360,
+      #3cba92,
+      #30dd8a,
+      #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+hr.style13 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+/* Dark Mode Components Starts here */
+
+.modeBtnSet {
+  position: sticky;
+}
+
+/* DropDown Css */
+
+
+/* All Media Queries starts  */
+
+@media (min-width : 992px) {
+  .offcanvas {
+    visibility: visible;
+    position: relative;
+    background: none;
+    border: none;
+    justify-content: end;
+    color: red;
+  }
+}
+
+@media (max-width : 992px) {
+  .offcanvas {
+    width: 250px !important;
+  }
+
+  .offcanvas-start-lg {
+    top: 0;
+    left: 0;
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    transform: translateX(-100%);
+  }
+
+  .cont-resp {
+    flex-wrap: wrap;
+  }
+
+  .card-resp-2 {
+    margin-bottom: 20px;
+  }
+
+  .card-resp-3 {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width : 990px) {
+  .container-resp {
+    flex-direction: column;
+  }
+
+  .col-resp {
+    width: 100%;
+  }
+
+  .section-resp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width : 585px) {
+  .para-resp {
+    padding: 0 20px;
+  }
+
+  .form-resp {
+    width: 93%;
+    padding: 0 12px;
+  }
+}
+
+@media (max-width : 770px) {
+  .flex-direction-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .carousel-caption {
+    top: 125px !important;
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  .carousel-caption Link {
+    padding: 10px 15px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+}
+

@@ -1,0 +1,66 @@
+[
+{
+   id: k1,
+   image: '../data/Kurtas/kurta-1.png',
+   category: 'kurtas',
+   title: 'Fancy Men Turmeric colored kurta',
+   type: 'Wedding and Party Wear',
+   price: 55.77
+},
+{
+   id: k2,
+   image: '../data/Kurtas/kurta-2.png',
+   category: 'kurtas',
+   title: 'Mens Cotton kurta pajama set',
+   type: 'Wedding and Party Wear',
+   price: 72.62 
+},
+{
+   id: k3,
+   image: '../data/Kurtas/kurta-3.png',
+   category: 'kurtas',
+   title: 'Men's Cotton Blue Colored Kurta Pyjama Set.',
+   type: 'Party Wear',
+   price: 44.62 
+},
+{
+   id: k4,
+   image: '../data/Kurtas/kurta-4.png',
+   category: 'kurtas',
+   title: Classic solitary green colored kurta',
+   type: 'J-Express Men's Black Matching Cotton Kurta Payjama Set',
+   price: 69.89
+},
+{
+   id: k5,
+   image: '../data/Kurtas/kurta-5.png',
+   category: 'kurtas',
+   title: 'Attractive Modern Cute Stylish  Casual Kurta',
+   type: 'Wedding and Party Wear',
+   price: 21.40
+},
+{
+   id: k6,
+   image: '../data/Kurtas/kurta-6.png',
+   category: 'kurtas',
+   title: 'Men's Cotton Straight Kurta Pyjama Set',
+   type: 'Wedding and Party Wear',
+   price: 57.78
+},
+{
+   id: k7,
+   image: '../data/Kurtas/kurta-7.png',
+   category: 'kurtas',
+   title: 'Unique Men Kurta Sets',
+   type: 'Wedding and Party Wear',
+   price: 64.98
+},
+{
+   id: k8,
+   image: '../data/Kurtas/kurta-8.png',
+   category: 'kurtas',
+   title: 'Unique Men Yellow Brown Kurta Sets',
+   type: 'Wedding and Party Wear',
+   price: 73.92
+},
+]

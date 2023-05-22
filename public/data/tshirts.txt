@@ -1,0 +1,65 @@
+
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-1.png',
+   category: 'Tshirts',
+   title: 'Polyester Black Short Sleeves Printed Tshirts',
+   type: 'Casual and Daily Wear',
+   price: 53.56 
+},
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-2.png',
+   category: 'Tshirts',
+   title: 'Poly Blend Red Short Sleeves Printed Tshirts',
+   type: 'Casual and Daily Wear',
+   price: 32.21 
+},
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-3.png',
+   category: 'Tshirts',
+   title: 'Cotton Black Short Sleeves Printed Tshirts',
+   type: 'Party Wear',
+   price: 44.62 
+},
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-4.png',
+   category: 'Tshirts',
+   title: 'Cotton Black Short Sleeves Striped Tshirts',
+   type: 'Casual and Party Wear',
+   price: 46.89 
+},
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-5.png',
+   category: 'Tshirts',
+   title: 'Cotton Multicolor Short Sleeves Printed Tshirts',
+   type: 'Casual and Daily Wear',
+   price: 22.00
+},
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-6.png',
+   category: 'Tshirts',
+   title: 'Polycotton Yellow Long Sleeves Printed Tshirts',
+   type: 'Casual and Party Wear',
+   price: 77.78
+},
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-7.png',
+   category: 'Tshirts',
+   title: 'Cotton White Long Sleeves Solid Tshirts',
+   type: 'Casual and Party Wear',
+   price: 59.98
+},
+{
+   id: uuidv4(),
+   image: '../data/Tshirts/tshirt-8.png',
+   category: 'Tshirts',
+   title: 'Cotton Maroon Long Sleeves Solid Tshirts',
+   type: 'Casual and Daily Wear',
+   price: 73.92
+},

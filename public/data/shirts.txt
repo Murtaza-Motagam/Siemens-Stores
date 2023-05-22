@@ -1,0 +1,65 @@
+
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-1.png',
+   category: 'Shirts',
+   title: 'Polyester Men Casual Shirt',
+   type: 'Casual and Daily Wear',
+   price: 34.56 
+},
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-2.png',
+   category: 'Shirts',
+   title: 'casual checked shirt',
+   type: 'Casual and Daily Wear',
+   price: 32.21 
+},
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-3.png',
+   category: 'Shirts',
+   title: 'Men Casual Light Pink Colored Shirt',
+   type: 'Party Wear',
+   price: 44.62 
+},
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-4.png',
+   category: 'Shirts',
+   title: Classic solitary green colored shirt',
+   type: 'Casual and Party Wear',
+   price: 66.89
+},
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-5.png',
+   category: 'Shirts',
+   title: 'Trendy Modern Men Shirt',
+   type: 'Casual and Daily Wear',
+   price: 21.40
+},
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-6.png',
+   category: 'Shirts',
+   title: 'Men Formal event wear black Shirt',
+   type: 'Casual and Party Wear',
+   price: 77.78
+},
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-7.png',
+   category: 'Shirts',
+   title: 'Vellica Fashion premium checks shirt',
+   type: 'Casual and Party Wear',
+   price: 59.98
+},
+{
+   id: uuidv4(),
+   image: '../data/Shirts/shirt-8.png',
+   category: 'Shirts',
+   title: 'Mans Licra Shirt',
+   type: 'Casual and Daily Wear',
+   price: 73.92
+},
